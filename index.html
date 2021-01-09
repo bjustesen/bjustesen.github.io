@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Assignment Portal</title>
-    </head>
+
+<head>
+    <title>Assignment Portal</title>
+</head>
+
 <body>
     <header>
         <h1>Brooke Justesen</h1>
     </header>
     <main>
         <img src="imgs\Small photo.JPG" alt="pic of Brooke">
-        
+        <h2> WDD 230: Assignment Portal</h2>
+        <section>
+            <ul>
+                <li>Lesson 02: <a href="index.html">Assignment Link</a></li>
+                <li>Lesson 03: <a href="index.html">Assignment Link</a></li>
+                <li>Lesson 04: <a href="index.html">Assignment Link</a></li>
+            </ul>
+        </section>
     </main>
     <footer>
+        <p>&copy; 2020 | Brooke Justesen | Idaho | <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        </p>
+        <script>
+            var
+                nLastVisit = parseFloat(document.cookie.replace(/(?:(?:^|.*;)\s*last_modif\s*\=\s*([^;]*).*$)|^.*$/,
+                    "$1")),
+                nLastModif = Date.parse(document.lastModified);
+
+            if (isNaN(nLastVisit) || nLastModif > nLastVisit) {
+                document.cookie = "last_modif=" + Date.now() + "; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=" +
+                    location.pathname;
+
+                if (isFinite(nLastVisit)) {
+                    alert("This page has been changed!");
+                }
+            }
+        </script>
 
 
     </footer>
-   
+
 </body>
 
 
