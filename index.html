@@ -21,10 +21,15 @@
         </section>
     </main>
     <footer>
-        <p>&copy; &#entity_number; | Brooke Justesen | Idaho | <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        <p>&copy; 2020 | Brooke Justesen | Idaho | <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a>
         </p>
-        <p class="lastModified">Last Modified:</p>
+        <p id="lastModified"></p>
         <script>
+            var string = document.lastModified;
+            alert(document.lastModified);
+            let oLastModif = new Date(document.lastModified);
+            let nLastModif = Date.parse(document.lastModified);
+
             var
                 nLastVisit = parseFloat(document.cookie.replace(/(?:(?:^|.*;)\s*last_modif\s*\=\s*([^;]*).*$)|^.*$/,
                     "$1")),
