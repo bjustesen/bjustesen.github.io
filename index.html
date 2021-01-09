@@ -22,10 +22,11 @@
     </main>
     <footer>
         <p>&copy; 2020 | Brooke Justesen | Idaho | <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a></p>
-        <span id="currentdate"></span>
+        <p><span id="currentdate"></span></p>
         <script>
-            const todaysdate = new Date();
-            console.log(todaysdate);
+            const options = {weekday: 'long', day: 'numeric', month:'long', year:'numeric'};
+            document.getElementbyId('currentdate').textContent = new Date().toLocateDateString('en-US', options);
+            
         </script>
       
 
