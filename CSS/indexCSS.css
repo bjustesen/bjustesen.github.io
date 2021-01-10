@@ -54,6 +54,7 @@ main{
       
         body, header, footer {
         display: block;
+        margin:0;
         }   
       
     /* end of media query */ 
