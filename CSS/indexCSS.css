@@ -33,7 +33,9 @@ main{
   
 }
 
-
+#content{
+    max-width: 550px;
+  }
 
 
 
@@ -52,7 +54,7 @@ main{
 @media screen and (max-width: 550px) { 
     /* beginning of media query */
       
-        body, header, footer {
+        body, header, footer, .intro-pic {
         display: block;
         margin:0;
         }   
