@@ -52,7 +52,7 @@ main{
 @media screen and (max-width: 550px) { 
     /* beginning of media query */
       
-        body {
+        body, header, footer {
         display: block;
         }   
       
