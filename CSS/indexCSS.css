@@ -32,3 +32,29 @@ main{
   border-radius: 10px;
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 550px) { 
+    /* beginning of media query */
+      
+        body {
+        display: block;
+        }   
+      
+    /* end of media query */ 
+    } 
