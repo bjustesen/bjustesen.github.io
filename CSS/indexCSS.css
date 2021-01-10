@@ -1,0 +1,34 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Yusei+Magic&display=swap');
+header{
+    background-color: #86BBBD;
+    border-radius: 25px;
+  padding:10px;
+  padding-left:20px;
+  margin-right: 800px;
+
+}
+footer{
+    background-color: #86BBBD;
+    border-radius: 25px;
+  padding:10px;
+  margin-right: 800px;
+  text-align:center;
+}
+h1, h2,h3{
+font-family: 'Acme', sans-serif;
+}
+body{
+ font-family: 'Yusei Magic', sans-serif;
+}
+main{
+  padding:10px;
+}
+.intro-pic{
+  float:right;
+  width: 160px;
+  margin-right:810px;
+  margin-top: -90px;
+  border-radius: 10px;
+  
+}
