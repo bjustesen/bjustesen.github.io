@@ -135,6 +135,7 @@ footer{
     main{
         grid-template-columns: 1fr 1fr;
         display: grid;
+        grid-gap: 5px;
     }
     .amazonphoto img{
        width: 420px;
