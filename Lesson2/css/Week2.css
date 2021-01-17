@@ -2,6 +2,8 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 h2,h1,h3{
     font-family: 'Open Sans', sans-serif;
@@ -9,6 +11,217 @@ h2,h1,h3{
 img{
     max-width: 100%;
 }
-.amazonphoto{
+.amazonphoto img{
     width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+.amazonphoto{
+    background-color: #D7EAEA;
+}
+main{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 1em;
+}
+.introheadline{
+    grid-column: 1/4;
+    grid-row: 1;
+    background-color: #D7EAEA;  
+    text-align: center; 
+}
+.panel1{
+    margin-top: 10px;
+    grid-column: 1/2;
+    grid-row: 2;
+    border: #86BBBD solid 3px;
+    border-radius: 15px;
+    height: 1350px;
+}
+.alignmenth1{
+    background-color: #86BBBD;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top:-3px;
+    border-radius: 15px 15px 0px 0px;
+}
+.panel12ndhalf{
+    padding-left: 10px;
+    margin-top:-20px;
+    background-color: #D7EAEA;
+    padding-bottom: 10px;
+}
+.panel13rdhalf{
+    border-radius:  0px 0px 15px 15px;
+    padding: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #D7EAEA;
+   
+}
+.panel2{
+    margin-top: 10px;
+    grid-column: 2/3;
+    grid-row: 2;
+    border: #86BBBD solid 3px;
+    border-radius: 15px;
+    height: 1350px;
+}
+.contrasth1{
+    background-color: #86BBBD;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top:-3px;
+    border-radius: 15px 15px 0px 0px;
+}
+.panel22ndhalf{
+    padding-left: 10px;
+    margin-top:-20px;
+    background-color: #D7EAEA;
+    padding-bottom: 10px;
+    
+}
+.panel23rdhalf{
+    border-radius:  0px 0px 15px 15px;
+    padding: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #D7EAEA;
+    padding-bottom: 83px;
+    padding-top: 30px;
+   
+}
+.panel3{
+    margin-top: 10px;
+    grid-column: 3/4;
+    grid-row: 2;
+    border: #86BBBD solid 3px;
+    border-radius: 15px;
+    height: 1350px;
+    
+}
+.proximityh1{
+    background-color: #86BBBD;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top:-3px;
+    border-radius: 15px 15px 0px 0px;
+}
+.panel32ndhalf{
+    padding-left: 10px;
+    margin-top:-20px;
+    background-color: #D7EAEA;
+    padding-bottom: 10px;
+}
+.panel33rdhalf{
+    border-radius:  0px 0px 15px 15px;
+    padding: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #D7EAEA;
+    padding-bottom: 15px;
+   
+}
+footer{
+    background-color: #D7EAEA;
+    padding:10px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 880px) {
+    main{
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+    }
+    .amazonphoto img{
+       width: 420px;
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .panel1{
+        grid-column: 1/2;
+        max-width: 100%;
+        margin:0;
+    }
+    .panel2{
+        grid-column: 2/3;
+        max-width: 100%;
+        margin:0;
+    }
+    .panel3 {
+        grid-column: 1/2;
+        grid-row: 3;
+        max-width: 100%;
+    }
+  }
+  @media only screen and (max-width: 720px) {
+    main{
+        grid-template-columns: 1fr;
+        display: grid;
+        grid-gap:0;
+    }
+    .amazonphoto img{
+       width: 550px;
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .panel1{
+        grid-column: 1/2;
+        max-width: 100%;
+        margin:0;
+        grid-row: 2;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .panel2{
+        grid-column: 1/2;
+        grid-row: 3;
+        max-width: 100%;
+        margin:0;
+    }
+    .panel3 {
+        grid-column: 1/2;
+        grid-row: 4;
+        max-width: 100%;
+    }
+  }
+  @media only screen and (max-width: 340px) {
+    main{
+        grid-template-columns: 1fr;
+        display: grid;
+        grid-gap:0;
+    }
+    .amazonphoto img{
+       width: 300px;
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .panel1{
+        margin-top:10px;
+        grid-column: 1/2;
+        max-width: 100%;
+        grid-row: 2;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .panel2{
+        grid-column: 1/2;
+        grid-row: 3;
+        max-width: 100%;
+        margin-top:10px;
+    }
+    .panel3 {
+        grid-column: 1/2;
+        grid-row: 4;
+        max-width: 100%;
+        margin-top:10px;
+    }
+  }
