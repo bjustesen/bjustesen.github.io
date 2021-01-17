@@ -6,3 +6,9 @@ body{
 h2,h1,h3{
     font-family: 'Open Sans', sans-serif;
 }
+img{
+    max-width: 100%;
+}
+.amazonphoto{
+    width: 300px;
+}
