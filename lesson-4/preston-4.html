@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Home menu Brooke Justesen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Lesson4/css/preston-4.css">
+    <link rel="stylesheet" href="/Lesson4/css/medium.css">
+    <link rel="stylesheet" href="/Lesson4/css/small.css">
+    <script src="/Lesson4/js/preston.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="/Lesson3/media/weather-08-128.webp" alt="weather logo">
+        <section class="headlines">
+            <h2>Radical Weather Updates</h2>
+            <div class="hp">
+                <p>Real time updates for your area</p>
+            </div>
+        </section>
+    </header>
+    <nav>
+        <button type="button" class="collapsible" onclick="myFunction(this)">
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+           
+        </button>
+        <div class="content">
+            <a href="#">
+                <div class="nav-item">
+                    Home
+                </div>
+            </a>
+            <a href="#">
+                <div class="nav-item">
+                    Preston
+                </div>
+            </a>
+            <a href="#">
+                <div class="nav-item">
+                    Soda Springs
+                </div>
+            </a>
+            <a href="#">
+                <div class="nav-item">
+                    Fish Haven
+                </div>
+            </a>
+            <a href="#">
+                <div class="nav-item">
+                    Stom Center
+                </div>
+            </a>
+            <a href="#">
+                <div class="nav-item">
+                    Gallery
+                </div>
+            </a>
+
+
+        </div>
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        </script>
+
+
+    </nav>
+    <main>
+        <div class="areatittle">
+        <h2>Preston Idaho</h2>
+    </div>
+        <div class="placeholder">
+            <p>Hero w/ weather summary</p>
+        </div>
+        <div class="placeholder">
+            <p> 5 Day Forcast</p>
+        </div>
+        <div class="placeholder">
+            <p>Article</p>
+        </div>
+        <div class="placeholder">
+            <p>Contact Information</p>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; Radical Weather Updates | Brooke Justesen <span id="currentdate"></span></p>
+        
+        <script src="/Lesson4/js/year.js"></script>
+
+    </footer>
+
+</body>
+
+</html>
