@@ -53,17 +53,17 @@ a{
 }
 .content a div{
     display:inline;
-    padding: 15px 58px;
-    
+    padding: 15px 25px;    
 }
 .content{
     padding: 15px 0;
     background-color:#A5A6F3;
-    
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;   
 }
 .nav-item:hover{ 
     background-color:#FECB34;
-   
 }
 footer{
     background-color: #7678ED;
