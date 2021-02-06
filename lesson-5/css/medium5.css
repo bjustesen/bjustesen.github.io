@@ -1,0 +1,71 @@
+@media screen and (max-width: 767px) {
+
+  .headlines h2 {
+    font-size: 2rem;
+  }
+
+  .hp {
+    letter-spacing: .5px;
+    font-size: larger;
+    margin-left: 17px;
+  }
+
+  .collapsible {
+    background-color: #7678ED;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .active,
+  .collapsible:hover {
+    background-color: #4A4DE8;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #A5A6F3;
+    color: black;
+  }
+
+  .nav-item {
+    padding: 10px;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-item:hover {
+    background-color: #FECB34;
+    color: black;
+  }
+
+  .content a div {
+    display: block;
+  }
+
+  #currentdate {
+    display: block;
+  }
+
+  .menuimg {
+    width: 40px;
+  }
+
+
+
+}
