@@ -80,6 +80,7 @@ header img {
     color: black;
 }
 
+
 .nav-item {
     padding: 10px;
     text-align: center;
@@ -107,13 +108,6 @@ a {
     width: 40px;
 }
 
-.placeholder {
-    background-color: #d3d3d3;
-    border: 3px dashed #a9a9a9;
-    padding-left: 5px;
-    color: black;
-    margin: 10px 0;
-}
 
 .areatittle {
     text-align: center;
@@ -161,17 +155,20 @@ hr {
 }
 
 .forcastpreston {
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: -1.5em;
+    display:none;
+}
+table{
+    display:none;
 }
 
 .articlepreston {
     border: 1px solid #3D348B;
     background-color: #EDEDFD;
     padding: 20px;
-    width: 350px;
+    display:block;
+    width: 300px;
     margin: 0 auto;
+    
 }
 
 .articlepreston p {
@@ -204,3 +201,40 @@ footer p {
 #currentdate {
     display: block;
 }
+.contactinformation{
+    background-color: #FED65D;
+    margin: 10px;
+    padding:10px;
+    text-align:center;
+}
+.littleworld{
+    display:inline;
+}
+.mappreston{
+   display: none;
+
+}
+.contactinformation h4{
+    margin-bottom: 10px;
+    margin-top:0px;
+}
+.contactinformation p{
+    display:inline;
+}
+.socialicons img{
+    margin:10px 0;
+    height:40px;
+}
+.phoneemail{
+    margin: 20px 0;
+}
+.active{
+    text-decoration: underline;
+    background-color: #A5A6F3 ;
+}
+.contactinformation{
+    margin: 10px auto;
+    margin-bottom: -16px;
+  }
+
+

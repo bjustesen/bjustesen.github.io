@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/medium5.css">
     <link rel="stylesheet" href="css/large5.css">
     <link rel="shortcut icon" href="media/favicon.ico">
+    <script defer src="https://cdn.aerisapi.com/sdk/js/latest/aerisweather.min.js"></script>
 </head>
 
 <body>
@@ -28,34 +29,22 @@
         </button>
         <div class="content">
             <a href="#">
-                <div class="nav-item">
-                    Home
-                </div>
+                <div class="nav-item">Home</div>
+            </a>
+            <a class="active" href="#">
+                <div class="nav-item">Preston</div>
             </a>
             <a href="#">
-                <div class="nav-item">
-                    Preston
-                </div>
+                <div class="nav-item">Soda Springs</div>
             </a>
             <a href="#">
-                <div class="nav-item">
-                    Soda Springs
-                </div>
+                <div class="nav-item">Fish Haven</div>
             </a>
             <a href="#">
-                <div class="nav-item">
-                    Fish Haven
-                </div>
+                <div class="nav-item">Stom Center</div>
             </a>
             <a href="#">
-                <div class="nav-item">
-                    Stom Center
-                </div>
-            </a>
-            <a href="#">
-                <div class="nav-item">
-                    Gallery
-                </div>
+                <div class="nav-item">Gallery</div>
             </a>
         </div>
 
@@ -80,6 +69,31 @@
         <div class="forcastpreston">
             <p> 5 Day Forcast</p>
         </div>
+        <table>
+            <thead>
+                <tr class="tablehead">
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tues</th>
+                <th>Wed</th>
+                <th>Thrus</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr class="tablerow">
+                    <td>Weather</td>
+                    <td>Weather</td>
+                    <td>Weather</td>
+                    <td>Weather</td>
+                    <td>Weather</td>
+                    <td>Weather</td>
+                    <td>Weather</td>
+                </tr>
+            </tbody>
+        </table>
+    
         <div class="articlepreston">
             <img class="articlephoto" src="media/familypic5.jpg" alt="photo of family">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -89,13 +103,15 @@
                 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 Duis aute irure dolor
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis
+                aute irure dolor
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
                 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 Duis aute irure dolor
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
                 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                <span id="dots">...</span><span id="more">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                <span id="dots">...</span><span id="more">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor
                     incididunt
                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                     nisi ut
@@ -105,9 +121,32 @@
                     deserunt mollit anim id est laborum.</span></p>
             <button onclick="myFunction()" id="myBtn">Read more</button>
         </div>
-        <div class="placeholder">
-            <p>Contact Information</p>
-        </div>
+        <section class="contactinformation">
+            <img class="mappreston" src="media/prestonmap.png" alt="preston map">
+
+            <div class="contactinfowords">
+                <h4>Radical Weather Updates</h4>
+                <img class="littleworld" src="media/littleworld.png" alt="little world">
+                <p> 30 N 1st E </br> Preston, ID 83263</p>
+            </div>
+            <div class="phoneemail">
+                <img src="media/phoneicon.png" alt="phoneicon">
+                <p>999.999.9999</p><br>
+                <img src="media/email.png" alt="emailicon">
+                <p>RadicalWeatherUpdates@rwu.com</p>
+            </div>
+            <div class="socialicons">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="media//facebook.png" alt="facebook logo">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="media/instagram.png" alt="facebook logo">
+                </a>
+                <a href="https://twitter.com/?lang=en" target="_blank">
+                    <img src="media/twitter.png" alt="facebook logo">
+                </a>
+            </div>
+        </section>
 
     </main>
     <footer>
@@ -117,6 +156,7 @@
     <script src="js/year5.js"></script>
     <script src="js/collapsible5.js"></script>
     <script src="js/seemore.js"></script>
+    <script src="js/fivedayweather.js"></script>
 </body>
 
 </html>

@@ -3,16 +3,75 @@
   .articlepreston {
     width: 690px;
   }
-.articlephoto{
-  float: right;
-  height: 200px;
-}
+
+  .articlephoto {
+    float: right;
+    height: 200px;
+  }
 
   footer {
     height: 65px;
   }
+
   .articlepreston p {
     margin-top: -8px;
+  }
+
+  .mappreston {
+    display: block;
+    grid-row: 1/4;
+  }
+
+  .contactinformation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contactinfowords,
+  .phoneemail,
+  .socialicons {
+    text-align: left;
+    grid-column: 2/3;
+  }
+
+  .contactinfowords {
+    grid-row: 1;
+  }
+
+  .phoneemail {
+    grid-row: 2;
+  }
+
+  table {
+    display: block;
+    margin: 10px 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+   margin-left: 80px;
+  }
+
+  th {
+    padding: 10px;
+    width: 110px;
+    border: 3px solid #F35B04;
+    font-size: 1.2em;
+    background-color: #FECB34;
+  }
+
+  td {
+    border: 3px solid #F35B04;
+    background-color: #FED65D;
+  }
+
+  .tablerow {
+    height: 200px;
+  }
+
+  .forcastpreston {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -1.5em;
   }
 
 
