@@ -147,6 +147,9 @@ img {
     margin-bottom: -7px;
     margin-top: 10px;
 }
+.weathersummary p{
+    margin:10px;
+}
 
 hr {
     height: 1px;
@@ -155,24 +158,25 @@ hr {
 }
 
 .forcastpreston {
-    display:none;
+    display: none;
 }
-table{
-    display:none;
+
+table {
+    display: none;
 }
 
 .articlepreston {
     border: 1px solid #3D348B;
     background-color: #EDEDFD;
     padding: 20px;
-    display:block;
+    display: block;
     width: 300px;
     margin: 0 auto;
-    
+
 }
 
 .articlepreston p {
-    margin-bottom: -23px;
+    margin-bottom: 0px;
 }
 
 #more {
@@ -201,40 +205,59 @@ footer p {
 #currentdate {
     display: block;
 }
-.contactinformation{
+
+.contactinformation {
     background-color: #FED65D;
     margin: 10px;
-    padding:10px;
-    text-align:center;
+    padding: 10px;
+    text-align: center;
 }
-.littleworld{
-    display:inline;
+
+.littleworld {
+    display: inline;
 }
-.mappreston{
-   display: none;
+
+.mappreston {
+    display: none;
 
 }
-.contactinformation h4{
+
+.contactinformation h4 {
     margin-bottom: 10px;
-    margin-top:0px;
+    margin-top: 0px;
 }
-.contactinformation p{
-    display:inline;
+
+.contactinformation p {
+    display: inline;
 }
-.socialicons img{
-    margin:10px 0;
-    height:40px;
+
+.socialicons img {
+    margin: 10px 0;
+    height: 40px;
 }
-.phoneemail{
+
+.phoneemail {
     margin: 20px 0;
 }
-.active{
+
+.active {
     text-decoration: underline;
-    background-color: #A5A6F3 ;
+    background-color: #A5A6F3;
 }
-.contactinformation{
+
+.contactinformation {
     margin: 10px auto;
     margin-bottom: -16px;
-  }
+}
 
+#pancakes {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    background-color: #FED65D;
+    display:block;
+    text-align: center;
+}
 
