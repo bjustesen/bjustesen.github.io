@@ -1,5 +1,5 @@
 /* CSS files add styling rules to your content */
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Yusei+Magic&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Acme&family=Yusei+Magic&display=swap'); */
 header{
     background-color: #86BBBD;
     border-radius: 25px;
@@ -14,11 +14,11 @@ footer{
 }
 
 h1, h2,h3{
-font-family: 'Acme', sans-serif;
+/* font-family: 'Acme', sans-serif; */
 }
 
 body{
- font-family: 'Yusei Magic', sans-serif;
+ /* font-family: 'Yusei Magic', sans-serif; */
  max-width: 550px;
 }
 
