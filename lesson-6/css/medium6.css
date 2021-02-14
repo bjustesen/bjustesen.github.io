@@ -1,20 +1,22 @@
 @media screen and (min-width: 500px) {
-
-  .articlepreston {
-    width: 690px;
-  }
-
   .articlephoto {
     float: right;
     height: 200px;
+    padding: 0px 0px 7px 10px;
+  }
+
+  .articlepreston{
+    margin-top:0px;
+  }
+  
+ 
+
+  .articlepreston p {
+    margin-top: -8px;
   }
 
   footer {
     height: 65px;
-  }
-
-  .articlepreston p {
-    margin-top: -8px;
   }
 
   .mappreston {
@@ -73,6 +75,10 @@
     text-align: center;
     font-size: 1.5em;
     margin-top: -1.5em;
+  }
+  .active div{
+    background-color: #FECB34;
+    border-radius: 5px;
   }
 
 

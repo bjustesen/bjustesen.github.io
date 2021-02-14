@@ -14,11 +14,11 @@ footer{
 }
 
 h1, h2,h3{
-/* font-family: 'Acme', sans-serif; */
+font-family: 'Acme', sans-serif;
 }
 
 body{
- /* font-family: 'Yusei Magic', sans-serif; */
+ font-family: 'Yusei Magic', sans-serif;
  max-width: 550px;
 }
 
