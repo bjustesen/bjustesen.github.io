@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Yusei+Magic&display=swap');
-
 h2 {
     color: black;
     font-family: 'Libre Baskerville', serif;
@@ -67,7 +66,7 @@ header img {
 
 }
 
-.active,
+.preston,
 .collapsible:hover {
     background-color: #4A4DE8;
 }
@@ -170,14 +169,15 @@ table {
     background-color: #EDEDFD;
     padding: 20px;
     display: block;
-    width: 300px;
-    margin: 0 auto;
+    margin-top:-20px;
+    
 
 }
 
 .articlepreston p {
     margin-bottom: 0px;
 }
+
 
 #more {
     display: none;
@@ -233,16 +233,16 @@ footer p {
 
 .socialicons img {
     margin: 10px 0;
-    height: 40px;
+    /* height: 40px; */
 }
 
 .phoneemail {
     margin: 20px 0;
 }
 
-.active {
-    text-decoration: underline;
-    background-color: #A5A6F3;
+.preston div {
+    background-color: #FECB34;
+    
 }
 
 .contactinformation {
