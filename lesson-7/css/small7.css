@@ -146,8 +146,9 @@ img {
     margin-bottom: -7px;
     margin-top: 10px;
 }
-.weathersummary p{
-    margin:10px;
+
+.weathersummary p {
+    margin: 10px;
 }
 
 hr {
@@ -169,8 +170,8 @@ table {
     background-color: #EDEDFD;
     padding: 20px;
     display: block;
-    margin-top:-20px;
-    
+    margin-top: -20px;
+
 
 }
 
@@ -242,7 +243,7 @@ footer p {
 
 .active div {
     background-color: #FECB34;
-    
+
 }
 
 .contactinformation {
@@ -257,7 +258,44 @@ footer p {
     right: 0;
     padding: .5em;
     background-color: #FED65D;
-    display:block;
+    display: block;
     text-align: center;
 }
 
+
+/*Gallery page*/
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 320px);
+    grid-gap:1em;
+}
+
+.gallerytittle {
+    text-align: center;
+}
+.g-text-1{
+    padding:10px;
+    margin-top:0px;
+    text-align:center;
+}
+
+.gallery-main img{
+    height: 250px;
+    width:100%; 
+}
+.gallery-grid div{
+    border: 1px solid #3D348B;
+}
+.gallery-grid div:hover{
+    box-shadow: 0px 0px 25px black;
+}

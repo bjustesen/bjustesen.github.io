@@ -3,12 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Preston Idaho weather report">
+    <meta name="description" content="Weather photo gallery">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="css/small7.css">
     <link rel="stylesheet" href="css/medium7.css">
     <link rel="stylesheet" href="css/large7.css">
+    <link rel="shortcut icon" href="media/favicon.ico">
 
 </head>
 
@@ -48,12 +49,85 @@
         </div>
 
     </nav>
-    <main>
+    <main class="gallery-main">
 
-        <div class="areatittle">
+        <div class="gallerytittle">
             <h2>Photo Gallery</h2>
         </div>
-       
+        <div class="gallery-grid">
+            <div>
+                <picture>
+                    <img class="gallery-photo1" data-src="media\gallery-photos-rez\cityinrain.jpg"
+                        src="https://via.placeholder.com/300x400" alt="City Scape in rain">
+                </picture>
+                <p class="g-text-1">Rainy weather never seemed so peaceful</p>
+            </div>
+
+            <div>
+                <picture>
+                    <img class="gallery-photo2" data-src="media\gallery-photos-rez\prettyflowers.jpg"
+                        src="https://via.placeholder.com/300x400" alt="Flower feild">
+                </picture>
+                <p class="g-text-1">What's up buttercup? It is time for spring!</p>
+            </div>
+
+            <div>
+                <picture>
+                    <img class="gallery-photo3" data-src="media\gallery-photos-rez\prettypurpleflowers.jpg"
+                        src="https://via.placeholder.com/300x400" alt="purple flowers in a feild">
+                </picture>
+                <p class="g-text-1">Beautiful flowers showing us we can shine in hard times.</p>
+            </div>
+
+            <div>
+                <picture>
+                    <img class="gallery-photo4" data-src="media\gallery-photos-rez\snowphoto-1.jpg"
+                        src="https://via.placeholder.com/300x400" alt="snow feild">
+                </picture>
+                <p class="g-text-1">Grab your winter coat, its time to hike in this snowy forest.</p>
+            </div>
+
+            <div>
+                <picture>
+                    <img class="gallery-photo5" data-src="media\gallery-photos-rez\sunset.jpg"
+                        src="https://via.placeholder.com/300x400" alt="sunset and mountians">
+                </picture>
+                <p class="g-text-1">Leave spring behind and say hellow to summer!</p>
+            </div>
+
+            <div>
+                <picture>
+                    <img class="gallery-photo6" data-src="media\gallery-photos-rez\snowphoto-2.jpg"
+                        src="https://via.placeholder.com/300x400" alt="snow and tree path">
+                </picture>
+                <p class="g-text-1">Enjoy a chilly, brisk beautiful walk through our parks.</p>
+            </div>
+
+            <div>
+                <picture>
+                    <img class="gallery-photo7" data-src="media\gallery-photos-rez\thunderstorm-1.jpg"
+                        src="https://via.placeholder.com/300x400" alt="thunderstorm">
+                </picture>
+                <p class="g-text-1">Watch out for thunderstorms</p>
+            </div>
+
+            <div>
+                <picture>
+                    <img class="gallery-photo8" data-src="media\gallery-photos-rez\treeandfeild.jpg"
+                        src="https://via.placeholder.com/300x400" alt="tree in a feild">
+                </picture>
+                <p class="g-text-1">Hello summer, come enjoy the grassy areas.</p>
+            </div>
+
+            <div class="gallery-photo9">
+                <picture>
+                    <img  data-src="media\gallery-photos-rez\thunderstorm2.jpg"
+                        src="https://via.placeholder.com/300x400" alt="Thunderstorm">
+                </picture>
+                <p class="g-text-1">It is the perfects weather to stay at home and curl up with a good book.</p>
+            </div>
+        </div>
+        <script src="lazyload-js/lazyload.js"></script>
     </main>
     <footer>
         <p>&copy; Radical Weather Updates | Brooke Justesen <span id="currentdate"></span></p>
@@ -66,15 +140,15 @@
     <script src="js/windchill6.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
-    WebFont.load({
-        google: {
-          families: [
-          'Libre Baskerville', 'Yusei Magic'
-          ]
-        }
-      });
+        WebFont.load({
+            google: {
+                families: [
+                    'Libre Baskerville', 'Yusei Magic'
+                ]
+            }
+        });
     </script>
-    
+
 </body>
 
 </html>

@@ -32,6 +32,23 @@
     height: 200px;
   }
 
+/* Gallery page */
 
+  .gallery-grid div{
+    box-shadow: 5px 5px 5px #999;
+}
+.gallery-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 320px);
+}
+.gallery-photo9{
+    grid-column:3/4;
+    justify-items: center;
+    width:367px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
 
 }

@@ -84,4 +84,23 @@
 
 
 
+
+
+  /*Gallery page*/
+.gallery-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 320px);
+}
+.gallery-photo9{
+    grid-column: 1/3;
+    justify-items: center;
+    width:367px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+
+
 }
