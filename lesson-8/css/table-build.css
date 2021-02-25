@@ -37,8 +37,10 @@ thead tr:nth-child(1){
     height: 45px;
     font-size: 1.4em;
 }
-tbody tr:nth-child(4) tbody td:nth-child(3){
-    background-color:black;
+tbody tr:nth-child(4) td:nth-child(3){
+    background-color:#7fb9c2;
 }
-
+tfoot tr:nth-child(1){
+    font-size: .8em;
+}
 
