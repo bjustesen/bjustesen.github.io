@@ -1,0 +1,106 @@
+@media screen and (min-width: 500px) {
+  .articlephoto {
+    float: right;
+    height: 200px;
+    padding: 0px 0px 7px 10px;
+  }
+
+  .articlepreston{
+    margin-top:0px;
+  }
+  
+ 
+
+  .articlepreston p {
+    margin-top: -8px;
+  }
+
+  footer {
+    height: 65px;
+  }
+
+  .mappreston {
+    display: block;
+    grid-row: 1/4;
+  }
+
+  .contactinformation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contactinfowords,
+  .phoneemail,
+  .socialicons {
+    text-align: left;
+    grid-column: 2/3;
+  }
+
+  .contactinfowords {
+    grid-row: 1;
+  }
+
+  .phoneemail {
+    grid-row: 2;
+  }
+
+  table {
+    display: block;
+    margin: 10px 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+   
+  }
+
+  th {
+    padding: 10px;
+    width: 110px;
+    border: 3px solid #F35B04;
+    font-size: 1.2em;
+    background-color: #FECB34;
+  }
+
+  td {
+    border: 3px solid #F35B04;
+    background-color: #FED65D;
+  }
+
+  .tablerow {
+    height: 200px;
+    text-align: center;
+  }
+
+  .forcastpreston {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -1.5em;
+  }
+  .active div{
+    background-color: #FECB34;
+    border-radius: 5px;
+  }
+
+
+
+
+
+
+  /*Gallery page*/
+.gallery-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 320px);
+}
+.gallery-photo9{
+    grid-column: 1/3;
+    justify-items: center;
+    width:367px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+
+
+}
