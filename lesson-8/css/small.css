@@ -314,7 +314,7 @@ form {
     width: 350px;
     /* Form outline */
     padding: 1em;
-    border: 1px solid #CCC;
+    border: 2px solid #FECB34;
     border-radius: 1em;
   }
   
@@ -349,14 +349,14 @@ form {
     box-sizing: border-box;
   
     /* Match form field borders */
-    border: 1px solid #999;
+    border: 1px solid #3D348B;
     
   }
   
   input:focus, 
   textarea:focus {
     /* Additional highlight for focused elements */
-    border-color: #000;
+    border-color: #3D348B;
     
   }
   
