@@ -32,19 +32,19 @@
             <a href="#">
                 <div class="nav-item">Home</div>
             </a>
-            <a href="#">
+            <a href="/lesson-6/preston-6.html">
                 <div class="nav-item">Preston</div>
             </a>
-            <a href="#">
+            <a href="">
                 <div class="nav-item">Soda Springs</div>
             </a>
             <a href="#">
                 <div class="nav-item">Fish Haven</div>
             </a>
-            <a href="#">
+            <a class="active" href="/lesson-8/stormcenter.html">
                 <div class="nav-item">Stom Center</div>
             </a>
-            <a class="active" href="#">
+            <a href="/lesson-7/gallery-7.html">
                 <div class="nav-item">Gallery</div>
             </a>
         </div>
@@ -57,36 +57,96 @@
         </div>
         <form action="/my-handling-form-page" method="post">
             <div>
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" pattern="[a-zA-Z0-9\s]+" required>
+                <label for="name">Full Name:
+                    <input type="text" id="name" pattern="[a-zA-Z0-9\s]+" required>
+                </label>
             </div>
 
             <div>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="user_mail" placeholder="example@123.com">
+                <label for="mail">E-mail:
+                    <input type="email" id="mail" name="user_mail" placeholder="example@123.com">
+                </label>
             </div>
 
             <div>
-                <label for="cell">Cell Number:</label>
-                <input type="tel" id="cell" name="user_cell" required>
+                <label for="cell">Cell Number:
+                    <input type="tel" id="cell" name="user_cell" required>
+                </label>
             </div>
 
             <div>
-                <label for="zip">Zip Code:</label>
-                <input id="zip" name="zip" type="number" pattern="[0-9]*" required>
+                <label for="zip">Zip Code:
+                    <input id="zip" name="zip" type="number" required>
+                </label>
             </div>
 
             <div>
-                <label for="date">Storm Date:</label>
-                <input type="date" id="date" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                <label for="date">Storm Date:
+                    <input type="date" id="date" name="trip-start" min="2018-01-01" max="2030-12-31">
+                </label>
             </div>
 
             <div>
-                <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message" placeholder="Enter Questions Here"></textarea>
+                <label for="storm">Storm Type:<br>
+                    <input name="storm" id="storm" list="stormtype">
+                </label>
+            </div>
+            <datalist id="stormtype">
+                <option>Flash Flood</option>
+                <option>Hail</option>
+                <option>Hurricane</option>
+                <option>Thunderstorm</option>
+                <option>Tornado</option>
+            </datalist>
+            <div>
+                <label for="ssverty">Storm Serverity (between 0 and 10):
+                    <input type="range" id="ssverty" name="ssverty" min="0" max="10">
+                </label>
+            </div>
+
+            <div>
+                <label for="region">Choose Storm Region:
+
+                <select id="region" name="region">
+                    <option value="value" selected="selected" disabled>Select Region ...</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodasprings">Soda Springs</option>
+                    <option value="fishhaven">Fish Haven</option>
+                </select>
+            </label>
+            </div>
+
+            <p>User in-danger?:</p>
+            <div class="danger">
+            <div>
+                <label for="yes">
+                    <input type="radio" id="yes" name="drone" value="yes">
+                    Yes
+                </label>
+            </div>
+
+            <div>
+                <label for="no">
+                    <input type="radio" id="no" name="drone" value="no">
+                    No
+                </label>
+            </div>
+
+            <div>
+                <label for="maybe">
+                    <input type="radio" id="maybe" name="drone" value="maybe">
+                    Maybe
+                </label>
+            </div>
+        </div>
+
+            <div>
+                <label for="msg">Message:
+                    <textarea id="msg" name="user_message" placeholder="Additional Information/comments"></textarea>
+                </label>
             </div>
             <div class="button">
-                <button type="submit">Send your message</button>
+                <button type="submit"><a href="thankyou.html">Send your message</a> </button>
             </div>
 
 
