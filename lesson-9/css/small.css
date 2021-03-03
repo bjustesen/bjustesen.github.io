@@ -263,10 +263,6 @@ footer p {
 }
 
 
-
-
-
-
 /*Gallery page*/
 picture img[data-src] {
     filter: blur(0.2em);
