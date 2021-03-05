@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Condensed:wght@700&display=swap');
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #D6E9EB;
+}
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.3em;
+    color: #1A3537;
+}
+header h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.5em;
+    color: #1A3537;
+    text-align: center;
+    margin:25px;
+    padding:5px;
+}
+section{
+    border: 2px solid #3B777D;
+    background-color: #84BDC2;
+    text-align: center;
+    margin:2px;
+    padding: 10px 20px 20px 20px;
+    
+}
+.cards{
+    box-shadow: 0px 0px 15px black;
+    padding:20px;
+}
+section img{
+    box-shadow: 0px 0px 20px black;
+    border-radius: 3px;
+    max-width: 70%;
+    
+}

@@ -18,7 +18,7 @@ fetch(requestURL)
 
         
         h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-        p.textContent = prophets[i].birthdate + ' ' + prophets[i].birthplace;
+        p.textContent = 'Date of Birth:' + ' ' + prophets[i].birthdate + ' ' + 'Place of Birth:' + ' ' + prophets[i].birthplace;
 
         card.appendChild(h2);
         card.appendChild(p);
@@ -26,6 +26,7 @@ fetch(requestURL)
         
         document.querySelector('div.cards').appendChild(card);
         image.setAttribute('src', prophets[i].imageurl); 
+        image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + "-" + [i + 1])
       } 
       
 
