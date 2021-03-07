@@ -415,3 +415,28 @@ form p{
       
   }
  
+
+
+  /* Home Page */
+
+.hometittle{
+    text-align: center;
+}
+.towndata section{
+    border: 2px solid #3B777D;
+    background-color: #84BDC2;
+    text-align: center;
+    margin:2px;
+    padding: 10px 20px 20px 20px;
+    
+}
+.towndata h2{
+    font-size: 2em;
+}
+.towndata 
+.towndata section img{
+    box-shadow: 0px 0px 20px black;
+    border-radius: 3px;
+    max-width: 70%;
+    
+}

@@ -50,108 +50,12 @@
         </div>
 
     </nav>
-    <main>
+    <main class="home-main">
 
-        <div class="stormtittle">
-            <h2>Storm Center</h2>
+        <div class="hometittle">
+            <h2>Welcome</h2>
         </div>
-        <form action="/my-handling-form-page" method="post">
-            <div>
-                <label for="name">Full Name:
-                    <input type="text" id="name" pattern="[a-zA-Z0-9\s]+" required>
-                </label>
-            </div>
-
-            <div>
-                <label for="mail">E-mail:
-                    <input type="email" id="mail" name="user_mail" placeholder="example@123.com">
-                </label>
-            </div>
-
-            <div>
-                <label for="cell">Cell Number:
-                    <input type="tel" id="cell" name="user_cell" required>
-                </label>
-            </div>
-
-            <div>
-                <label for="zip">Zip Code:
-                    <input id="zip" name="zip" type="number" required>
-                </label>
-            </div>
-
-            <div>
-                <label for="date">Storm Date:
-                    <input type="date" id="date" name="trip-start" min="2018-01-01" max="2030-12-31">
-                </label>
-            </div>
-
-            <div>
-                <label for="storm">Storm Type:<br>
-                    <input name="storm" id="storm" list="stormtype">
-                </label>
-            </div>
-            <datalist id="stormtype">
-                <option>Flash Flood</option>
-                <option>Hail</option>
-                <option>Hurricane</option>
-                <option>Thunderstorm</option>
-                <option>Tornado</option>
-            </datalist>
-            <div>
-                <label for="ssverty">Storm Serverity (between 0 and 10):
-                    <input type="range" id="ssverty" name="ssverty" min="0" max="10">
-                </label>
-            </div>
-
-            <div>
-                <label for="region">Choose Storm Region:
-
-                <select id="region" name="region">
-                    <option value="value" selected="selected" disabled>Select Region ...</option>
-                    <option value="preston">Preston</option>
-                    <option value="sodasprings">Soda Springs</option>
-                    <option value="fishhaven">Fish Haven</option>
-                </select>
-            </label>
-            </div>
-
-            <p>User in-danger?:</p>
-            <div class="danger">
-            <div>
-                <label for="yes">
-                    <input type="radio" id="yes" name="drone" value="yes">
-                    Yes
-                </label>
-            </div>
-
-            <div>
-                <label for="no">
-                    <input type="radio" id="no" name="drone" value="no">
-                    No
-                </label>
-            </div>
-
-            <div>
-                <label for="maybe">
-                    <input type="radio" id="maybe" name="drone" value="maybe">
-                    Maybe
-                </label>
-            </div>
-        </div>
-
-            <div>
-                <label for="msg">Message:
-                    <textarea id="msg" name="user_message" placeholder="Additional Information/comments"></textarea>
-                </label>
-            </div>
-            <div class="button">
-                <button type="submit"><a href="thankyou.html">Send your message</a> </button>
-            </div>
-
-
-        </form>
-
+       <div class="towndata"></div>
     </main>
     <footer>
         <p>&copy; Radical Weather Updates | Brooke Justesen <span id="currentdate"></span></p>
@@ -161,7 +65,9 @@
     <script src="js/year6.js"></script>
     <script src="js/collapsible6.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
+    <script src="js/towndata.js"></script>
+   
+   <script>
         WebFont.load({
             google: {
                 families: [
