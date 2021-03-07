@@ -423,20 +423,38 @@ form p{
     text-align: center;
 }
 .towndata section{
-    border: 2px solid #3B777D;
-    background-color: #84BDC2;
+    border: 2px solid #F35B04;
+    background-color: #FED148;
     text-align: center;
-    margin:2px;
+    margin:5px;
     padding: 10px 20px 20px 20px;
     
 }
 .towndata h2{
     font-size: 2em;
+   
 }
-.towndata 
+.towndata h3{
+    margin-top: -20px;
+    padding-bottom: 10px;;
+    border-bottom: 2px solid #F35B04;
+}
+.towndata p{
+    margin-top: -10px;
+}
+.towndata section p:nth-child(5){
+    margin-bottom: 25px;
+}
+.towndata section:nth-child(1),
+.towndata section:nth-child(3),
+.towndata section:nth-child(4),
+.towndata section:nth-child(5){
+    display: none;
+
+}
 .towndata section img{
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 10px black;
     border-radius: 3px;
-    max-width: 70%;
+    max-width: 80%;
     
 }
