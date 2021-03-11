@@ -445,13 +445,13 @@ form p{
 .towndata section p:nth-child(5){
     margin-bottom: 25px;
 }
-.towndata section:nth-child(1),
+/* .towndata section:nth-child(1),
 .towndata section:nth-child(3),
 .towndata section:nth-child(4),
 .towndata section:nth-child(5){
     display: none;
 
-}
+} */
 .towndata section img{
     box-shadow: 0px 0px 10px black;
     border-radius: 3px;
