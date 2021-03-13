@@ -170,12 +170,12 @@ form p{
   margin-top:10px;
 }
 
-.towndata section:nth-child(6) h2, 
-.towndata section:nth-child(6) h3,
-.towndata section:nth-child(6) p{
+.towndata section:nth-child(2) h2, 
+.towndata section:nth-child(2) h3,
+.towndata section:nth-child(2) p{
   grid-column: 2/3;
 }
-.towndata section:nth-child(6) img{
+.towndata section:nth-child(2) img{
   grid-column: 1/2;
 }
 .towndata section:nth-child(7) img{
