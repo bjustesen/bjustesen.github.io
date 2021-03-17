@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Preston Idaho weather report">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="media/favicon.ico">
+    
+    <script defer src="https://cdn.aerisapi.com/sdk/js/latest/aerisweather.min.js"></script>
+</head>
+
+<body>
+    <aside id="pancakes"></aside>
+    <header>
+
+        <img src="media/weathericon.png" alt="weather logo">
+        <section class="headlines">
+            <h2>Radical Weather Updates</h2>
+            <div class="hp">
+                <p>Real time updates for your area</p>
+            </div>
+        </section>
+    </header>
+    <nav>
+        <button type="button" class="collapsible">
+            <img class="menuimg" src="media/menuicon.png" alt="menu icon">
+        </button>
+        <div class="content">
+            <a href="index.html">
+                <div class="nav-item">Home</div>
+            </a>
+            <a href="preston.html">
+                <div class="nav-item">Preston</div>
+            </a>
+            <a class="active" href="soda-springs.html">
+                <div class="nav-item">Soda Springs</div>
+            </a>
+            <a href="fish-haven.html">
+                <div class="nav-item">Fish Haven</div>
+            </a>
+            <a href="stormcenter.html">
+                <div class="nav-item">Stom Center</div>
+            </a>
+            <a href="gallery.html">
+                <div class="nav-item">Gallery</div>
+            </a>
+        </div>
+
+    </nav>
+    <main>
+
+        <div class="areatittle">
+            <h2>Soda Springs Idaho</h2>
+        </div>
+        <div class="herodiv">
+            <div class="hero-ph">
+                <img 
+                src="media/bannerphoto-large-1100w.jpg"
+                srcset="media/bannerphoto-small-145w.jpg 145w, media/bannerphoto-med-480w.jpg 480w" 
+               
+               
+                 alt="city photo">
+            </div>
+            <section class="weathersummary">
+                <h3>Weather Summary</h3>
+                <hr>
+                <p>Currently: Sunny</p>
+                <p>High: <span id="temp">40</span>&#176;F</p>
+                <p>Wind Chill: <span id="windChill"></span>&#176;F</p>
+                <p>Wind Speed: <span id="windSpeed">5</span>mph</p>
+            </section>
+        </div>
+        <div class="forcastpreston">
+            <p> 5 Day Forcast</p>
+        </div>
+        <table>
+            <thead>
+                <tr class="tablehead">
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tues</th>
+                    <th>Wed</th>
+                    <th>Thrus</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="tablerow">
+                    <td><img src="media/weathericon.png" alt="Weather icon">
+                        <p>59 &#176;F</p>
+                    </td>
+                    <td><img src="media/weathericon.png" alt="Weather icon">
+                        <p>59 &#176;F</p>
+                    </td>
+                    <td><img src="media/weathericon.png" alt="Weather icon">
+                        <p>59 &#176;F</p>
+                    </td>
+                    <td><img src="media/weathericon.png" alt="Weather icon">
+                        <p>59 &#176;F</p>
+                    </td>
+                    <td><img src="media/weathericon.png" alt="Weather icon">
+                        <p>59 &#176;F</p>
+                    </td>
+                    <td><img src="media/weathericon.png" alt="Weather icon">
+                        <p>59 &#176;F</p>
+                    </td>
+                    <td><img src="media/weathericon.png" alt="Weather icon">
+                        <p>59 &#176;F</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="articlepreston">
+
+              <!--   -->
+
+            <img class="articlephoto" 
+            src="media/familypic.jpg"
+            srcset="media/familypic-500w.jpg 500w, media/familypic-800w.jpg 800w" 
+            sizes="100vw" 
+            alt="photo of family">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis
+                aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Duis aute irure dolor
+        </div>
+        <section class="contactinformation">
+            <img class="mappreston" src="media/prestonmap.png" alt="preston map">
+
+            <div class="contactinfowords">
+                <h4>Radical Weather Updates</h4>
+                <img class="littleworld" src="media/littleworld.png" alt="little world">
+                <p> 30 N 1st E <br> Preston, ID 83263</p>
+            </div>
+            <div class="phoneemail">
+                <img src="media/phoneicon.png" alt="phoneicon">
+                <p>999.999.9999</p><br>
+                <img src="media/email.png" alt="emailicon">
+                <p>RadicalWeatherUpdates@rwu.com</p>
+            </div>
+            <div class="socialicons">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="media//facebook.png" alt="facebook logo">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="media/instagram.png" alt="facebook logo">
+                </a>
+                <a href="https://twitter.com/?lang=en" target="_blank">
+                    <img src="media/twitter.png" alt="facebook logo">
+                </a>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; Radical Weather Updates | Brooke Justesen <span id="currentdate"></span></p>
+
+    </footer>
+    <script src="js/year.js"></script>
+    <script src="js/collapsible.js"></script>
+    <script src="js/pancakes.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/preston-forcast.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+          families: [
+          'Libre Baskerville', 'Yusei Magic'
+          ]
+        }
+      });
+    </script>
+    
+</body>
+
+</html>
