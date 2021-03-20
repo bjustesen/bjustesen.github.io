@@ -44,15 +44,35 @@
     grid-row: 2;
   }
 
-  table {
-    display: block;
+  /* .table {
+    display: inline;
     margin: 10px 0;
     border-collapse: collapse;
     table-layout: fixed;
    
-  }
+  } */
 
-  th {
+ .table {
+    border: 3px solid #F35B04;
+    background-color: #FED65D;
+    display:grid;
+    grid-template-columns: repeat(5, 211px);
+    padding: 20px;
+    margin-bottom: 10px;
+   
+    
+  }
+  .table section{
+    margin:0 auto;
+    
+  }
+  .table h2{
+    text-align:center;
+    margin-top: -5px;
+    margin-bottom: 20px;
+  }
+ 
+  /* th {
     padding: 10px;
     width: 110px;
     border: 3px solid #F35B04;
@@ -60,15 +80,12 @@
     background-color: #FECB34;
   }
 
-  td {
-    border: 3px solid #F35B04;
-    background-color: #FED65D;
-  }
+ 
 
   .tablerow {
     height: 200px;
     text-align: center;
-  }
+  } */
 
   .forcastpreston {
     display: block;
