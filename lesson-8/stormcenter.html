@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Weather photo gallery">
+    <meta name="description" content="Submit any storm information">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo Gallery</title>
+    <title>Storm Center</title>
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -29,22 +29,22 @@
             <img class="menuimg" src="media/menuicon.png" alt="menu icon">
         </button>
         <div class="content">
-            <a href="#">
+            <a href="index.html">
                 <div class="nav-item">Home</div>
             </a>
-            <a href="/lesson-6/preston-6.html">
+            <a href="preston.html">
                 <div class="nav-item">Preston</div>
             </a>
-            <a href="">
+            <a href="soda-springs.html">
                 <div class="nav-item">Soda Springs</div>
             </a>
-            <a href="#">
+            <a href="fish-haven.html">
                 <div class="nav-item">Fish Haven</div>
             </a>
-            <a class="active" href="/lesson-8/stormcenter.html">
+            <a class="active" href="stormcenter.html">
                 <div class="nav-item">Stom Center</div>
             </a>
-            <a href="/lesson-7/gallery-7.html">
+            <a href="gallery.html">
                 <div class="nav-item">Gallery</div>
             </a>
         </div>
@@ -55,10 +55,10 @@
         <div class="stormtittle">
             <h2>Storm Center</h2>
         </div>
-        <form action="/my-handling-form-page" method="post">
+        <form action="https://bjustesen.github.io/lesson-11/thankyou.html">
             <div>
                 <label for="name">Full Name:
-                    <input type="text" id="name" pattern="[a-zA-Z0-9\s]+" required>
+                    <input type="text" id="name" pattern="[A-Za-z]{5,}" required>
                 </label>
             </div>
 
@@ -99,9 +99,10 @@
                 <option>Tornado</option>
             </datalist>
             <div>
-                <label for="ssverty">Storm Serverity (between 0 and 10):
-                    <input type="range" id="ssverty" name="ssverty" min="0" max="10">
+                <label for="myRange">Storm Serverity (between 0 and 10):
+                    <input type="range" id="myRange" name="ssverty" min="0" max="10">
                 </label>
+                <p>Value: <span id="demo"></span></p>
             </div>
 
             <div>
@@ -146,7 +147,7 @@
                 </label>
             </div>
             <div class="button">
-                <button type="submit"><a href="thankyou.html">Send your message</a> </button>
+                <button type="submit">Send your message </button>
             </div>
 
 
@@ -158,8 +159,9 @@
 
     </footer>
     <script src="js/lazyload.js"></script>
-    <script src="js/year6.js"></script>
-    <script src="js/collapsible6.js"></script>
+    <script src="js/year.js"></script>
+    <script src="js/collapsible.js"></script>
+    <script src="js/range-value.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
