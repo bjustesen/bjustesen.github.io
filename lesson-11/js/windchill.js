@@ -1,6 +1,19 @@
-var t = document.getElementById("temp").innerHTML;
-var s = document.getElementById("windSpeed").innerHTML;
+function windChill(tempF, speed){
+    let wc= 35.74+(0.6215*tempF)-35.75*(speed**0.16)+(0.4275*tempF*(speed**0.16));
+    return wc;
+}
+  function doInputOutput(t, s){
+    //let t=parseFloat(document.getElementById("high").innerHTML);
+    //let s=parseFloat(document.getElementById("windspeed").innerHTML);
+    if(t<=50&&s>3){
 
-var f = Math.round(35.74 + (0.6215 * t) - (35.75 * Math.pow(s, 0.16)) + (0.4275 * t * Math.pow(s, 0.16)));
+    var output=windChill(t,s);
+      var equal=output.toFixed(0)+"\xB0F";
+    }
+    else{var equal="N/A";}
 
-document.getElementById("windChill").innerHTML = f;
+return equal;
+
+
+//document.getElementById("windchill").innerHTML=equal;
+}

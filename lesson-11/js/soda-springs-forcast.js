@@ -1,5 +1,5 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=979e25236567012c3b8dd149b86738a0';
-const apiForcast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=979e25236567012c3b8dd149b86738a0';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=979e25236567012c3b8dd149b86738a0';
+const apiForcast = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=979e25236567012c3b8dd149b86738a0';
 
 fetch(apiForcast)
   .then((response) => response.json())
@@ -35,7 +35,7 @@ fetch(apiForcast)
   });
 
 
-  fetch(apiURL)
+fetch(apiURL)
 .then((response)=> response.json())
 .then((jsObject)=>{
     console.log(jsObject)
@@ -49,6 +49,22 @@ fetch(apiForcast)
     document.getElementById("windspeed").textContent=jsObject.wind.speed;
     document.getElementById("windchill").textContent=doInputOutput(((jsObject.main.temp-273.15)*(9/5)+32),jsObject.wind.speed);
 });
+//  let card = document.createElement('section');
+// let h2 = document.createElement('h2');
+// let p1 = document.createElement('p');
+// let p2 = document.createElement('p');
+// let image = document.createElement('img');
+
+
+// h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+// p1.textContent = 'Date of Birth:' + ' ' + prophets[i].birthdate;
+// p2.textContent = 'Place of Birth:' + ' ' + prophets[i].birthplace;
+// card.appendChild(h2);
+// card.appendChild(p1);
+// card.appendChild(p2);
+// card.appendChild(image);
+
+// document.querySelector('div.cards').appendChild(card);
 
 
 
