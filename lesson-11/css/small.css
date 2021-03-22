@@ -161,18 +161,17 @@ hr {
     display: none;
 }
 
-table {
+.table {
     display: none;
 }
 
 .articlepreston {
+    margin-top: 40px;
     border: 1px solid #3D348B;
     background-color: #EDEDFD;
     padding: 20px;
     display: block;
     margin-top: -20px;
-
-
 }
 
 .articlepreston p {
@@ -370,7 +369,7 @@ form {
   
   .button {
     /* Align buttons with the text fields */
-    margin-left: -90px;
+    margin-left: 190px;
     margin-top: 10px;
     padding-left: 90px; /* same size as the label elements */
   }
@@ -391,6 +390,7 @@ form p{
     margin-bottom: -5px;
     font-weight: bold;
 }
+
 
 
   /* Thank you page */

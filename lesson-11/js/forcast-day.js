@@ -1,13 +1,13 @@
 let day= new Date();
 
 let dayNames=[
-    "Sunday", 
-    "Monday", 
-    "Tuesday", 
-    "Wednesday", 
-    "Thursday", 
-    "Friday", 
-    "Saturday"
+    "Sun", 
+    "Mon", 
+    "Tues", 
+    "Wed", 
+    "Thu", 
+    "Fri", 
+    "Sat"
 ];
   
 var nextDay= new Date();

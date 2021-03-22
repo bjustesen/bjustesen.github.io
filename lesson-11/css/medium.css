@@ -6,7 +6,7 @@
   }
 
   .articlepreston{
-    margin-top:0px;
+    margin-top: 40px;
   }
   
  
@@ -43,24 +43,14 @@
   .phoneemail {
     grid-row: 2;
   }
-
-  /* .table {
-    display: inline;
-    margin: 10px 0;
-    border-collapse: collapse;
-    table-layout: fixed;
-   
-  } */
-
  .table {
     border: 3px solid #F35B04;
     background-color: #FED65D;
     display:grid;
-    grid-template-columns: repeat(5, 211px);
+    grid-template-columns: repeat(5, 150px);
     padding: 20px;
     margin-bottom: 10px;
-   
-    
+       
   }
   .table section{
     margin:0 auto;
@@ -71,22 +61,6 @@
     margin-top: -5px;
     margin-bottom: 20px;
   }
- 
-  /* th {
-    padding: 10px;
-    width: 110px;
-    border: 3px solid #F35B04;
-    font-size: 1.2em;
-    background-color: #FECB34;
-  }
-
- 
-
-  .tablerow {
-    height: 200px;
-    text-align: center;
-  } */
-
   .forcastpreston {
     display: block;
     text-align: center;

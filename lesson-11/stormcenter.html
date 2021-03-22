@@ -55,10 +55,10 @@
         <div class="stormtittle">
             <h2>Storm Center</h2>
         </div>
-        <form action="/my-handling-form-page" method="post">
+        <form action="https://bjustesen.github.io/lesson-11/thankyou.html">
             <div>
                 <label for="name">Full Name:
-                    <input type="text" id="name" pattern="[a-zA-Z0-9\s]+" required>
+                    <input type="text" id="name" pattern="[A-Za-z]{5,}" required>
                 </label>
             </div>
 
@@ -99,9 +99,10 @@
                 <option>Tornado</option>
             </datalist>
             <div>
-                <label for="ssverty">Storm Serverity (between 0 and 10):
-                    <input type="range" id="ssverty" name="ssverty" min="0" max="10">
+                <label for="myRange">Storm Serverity (between 0 and 10):
+                    <input type="range" id="myRange" name="ssverty" min="0" max="10">
                 </label>
+                <p>Value: <span id="demo"></span></p>
             </div>
 
             <div>
@@ -146,7 +147,7 @@
                 </label>
             </div>
             <div class="button">
-                <button type="submit"><a href="thankyou.html">Send your message</a> </button>
+                <button type="submit">Send your message </button>
             </div>
 
 
@@ -160,6 +161,7 @@
     <script src="js/lazyload.js"></script>
     <script src="js/year.js"></script>
     <script src="js/collapsible.js"></script>
+    <script src="js/range-value.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
