@@ -1,6 +1,14 @@
-var t = document.getElementById("temp").innerHTML;
-var s = document.getElementById("windSpeed").innerHTML;
+let temp = document.getElementById("temp").innerText;
+let wind = document.getElementById("windSpeed").innerText;
 
-var f = Math.round(35.74 + (0.6215 * t) - (35.75 * Math.pow(s, 0.16)) + (0.4275 * t * Math.pow(s, 0.16)));
+if (temp <= 50 && wind > 3) {
+    let windPower = Math.pow(wind, .16);
+    let windChill = 35.74 + .6215 * temp - 35.75 * windPower + .4275 * temp * windPower;
+    document.getElementById("windChill").innerText = Math.round(windChill);
+} else {
+    document.getElementById("windChill").innerText = "N/A";
+}
+    
 
-document.getElementById("windChill").innerHTML = f;
+
+
