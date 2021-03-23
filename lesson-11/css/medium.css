@@ -4,15 +4,11 @@
     height: 200px;
     padding: 0px 0px 7px 10px;
   }
-
-  .articlepreston{
-    margin-top: 40px;
-  }
-  
- 
-
-  .articlepreston p {
+  .articlepreston p:nth-child(1) {
     margin-top: -8px;
+  }
+  .upcomingevent{
+    margin-bottom:40px;
   }
 
   footer {
@@ -112,8 +108,8 @@ input, textarea, label{
   width:10px;
   height:10px;
 }
-.danger label{
-  
+.button{
+  margin-left: 190px;
 }
 form p{
   margin-bottom: -5px;
