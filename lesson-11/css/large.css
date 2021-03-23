@@ -65,15 +65,16 @@
 .towndata section{
   display: block;
 }
-.towndata section:nth-child(7) img{
+.towndata section:nth-child(3) img,.towndata section:nth-child(2) img,.towndata section:nth-child(1) img{
   height:166.48px;
   margin-top: 18px;
 }
 .towndata section h3{
   margin-top: 10px;
   padding-bottom: 7px;
+  font-size: 14px;
 }
-.towndata section:nth-child(7) h3{
+.towndata section:nth-child(3) h3{
   font-size: .8em;
 }
 .table {

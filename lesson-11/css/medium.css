@@ -19,9 +19,10 @@
     height: 65px;
   }
 
-  .mappreston {
+  .map {
     display: block;
     grid-row: 1/4;
+    width: 300px;
   }
 
   .contactinformation {
