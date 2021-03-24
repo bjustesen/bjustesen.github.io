@@ -146,8 +146,9 @@ img {
     margin-bottom: -7px;
     margin-top: 10px;
 }
-.weathersummary p{
-    margin:10px;
+
+.weathersummary p {
+    margin: 10px;
 }
 
 hr {
@@ -160,35 +161,45 @@ hr {
     display: none;
 }
 
-table {
+.table {
     display: none;
 }
 
 .articlepreston {
+    margin-top: 40px;
     border: 1px solid #3D348B;
     background-color: #EDEDFD;
     padding: 20px;
     display: block;
-    margin-top:-20px;
-    
-
+    margin-top: -20px;
 }
 
 .articlepreston p {
     margin-bottom: 0px;
 }
 
-
-#more {
-    display: none;
+.upcomingevent h3 {
+    border-bottom: 2px solid #3D348B;
+    text-align: center;
+    padding: 10px;
+    margin-top: -10px;
+    font-size: 1.5em;
 }
 
-#myBtn {
-    border: none;
-    text-decoration: underline;
-    color: #501E01;
-    font-size: 1em;
-    margin: -50px 0 0 135px;
+.upcomingevent {
+    background-color: #A5A6F3;
+    border: 3px solid #3D348B;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.upcomingevent p {
+    padding: 10px;
 }
 
 footer {
@@ -200,6 +211,7 @@ footer {
 
 footer p {
     padding: 10px;
+    line-height: 1.5em;
 }
 
 #currentdate {
@@ -217,7 +229,7 @@ footer p {
     display: inline;
 }
 
-.mappreston {
+.map {
     display: none;
 
 }
@@ -242,7 +254,7 @@ footer p {
 
 .active div {
     background-color: #FECB34;
-    
+
 }
 
 .contactinformation {
@@ -257,7 +269,215 @@ footer p {
     right: 0;
     padding: .5em;
     background-color: #FED65D;
-    display:block;
+    display: block;
     text-align: center;
 }
 
+
+/*Gallery page*/
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 320px);
+    grid-gap: 1em;
+}
+
+.gallerytittle {
+    text-align: center;
+}
+
+.g-text-1 {
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.gallery-main img {
+    height: 250px;
+    width: 100%;
+}
+
+.gallery-grid div {
+    border: 1px solid #3D348B;
+}
+
+
+
+
+
+
+/* Storm center page */
+
+.stormtittle {
+    text-align: center;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 340px;
+    /* Form outline */
+    padding: 1em;
+    border: 2px solid #FECB34;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 350px;
+    text-align: left;
+    margin-top: 10px;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* Uniform text field size */
+    width: 350px;
+    box-sizing: border-box;
+
+    /* Match form field borders */
+    border: 1px solid #3D348B;
+
+}
+
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #3D348B;
+
+}
+
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* Provide space to type some text */
+    height: 5em;
+}
+
+.button {
+    /* Align buttons with the text fields */
+
+    margin-top: 10px;
+    padding-left: 90px;
+    /* same size as the label elements */
+}
+
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+
+}
+
+.danger input {
+    width: 10px;
+    height: 10px;
+}
+
+.danger label {
+    font-weight: normal;
+}
+
+form p {
+    margin-bottom: -5px;
+    font-weight: bold;
+}
+
+
+
+/* Thank you page */
+.thankyoutittle {
+    text-align: center;
+    border: 3px solid #FECB34;
+    border-radius: 100px;
+    margin: 30px;
+    padding: 50px;
+}
+
+.thankyoutittle h2 {
+    font-size: 2.3em;
+}
+
+.thankyoutittle p {
+    font-size: 1.2em;
+}
+
+.thankyoutittle h2,
+.thankyoutittle p {
+    margin: 5px;
+}
+
+.thankyoumain {
+    height: 250px;
+
+}
+
+
+
+/* Home Page */
+
+.hometittle {
+    text-align: center;
+}
+
+.towndata section {
+    border: 2px solid #F35B04;
+    background-color: #FED148;
+    text-align: center;
+    margin: 5px;
+    padding: 10px 20px 20px 20px;
+
+}
+
+.towndata h2 {
+    font-size: 2em;
+
+}
+
+.towndata h3 {
+    margin-top: -20px;
+    padding-bottom: 10px;
+    ;
+    border-bottom: 2px solid #F35B04;
+}
+
+.towndata p {
+    margin-top: -10px;
+}
+
+.towndata section p:nth-child(5) {
+    margin-bottom: 25px;
+}
+
+.towndata section img {
+    box-shadow: 0px 0px 10px black;
+    border-radius: 3px;
+    max-width: 80%;
+
+}

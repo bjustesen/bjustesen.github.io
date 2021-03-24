@@ -1,5 +1,5 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=979e25236567012c3b8dd149b86738a0';
-const apiForcast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=979e25236567012c3b8dd149b86738a0';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=979e25236567012c3b8dd149b86738a0';
+const apiForcast = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=979e25236567012c3b8dd149b86738a0';
 const eventURL= 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(apiForcast)
@@ -36,7 +36,7 @@ fetch(apiForcast)
   });
 
 
-  fetch(apiURL)
+fetch(apiURL)
 .then((response)=> response.json())
 .then((jsObject)=>{
     console.log(jsObject)
@@ -52,6 +52,7 @@ fetch(apiForcast)
 });
 
 
+
 fetch(eventURL)
 .then(function(response){
     return response.json();
@@ -64,7 +65,7 @@ fetch(eventURL)
 
     //let events=towns[1].events;
     for(let i=0; i<towns.length; i++){
-        if(towns[i].name=="Preston"){
+        if(towns[i].name=="Soda Springs"){
         let events=towns[i].events;
         let h3=document.createElement("h3");
         h3.textContent="Upcoming Events";
@@ -77,3 +78,7 @@ div.appendChild(p5);
 document.querySelector("section.upcomingevent").appendChild(div);}}}
 
 });
+
+
+
+

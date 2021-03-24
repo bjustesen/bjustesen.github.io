@@ -1,5 +1,5 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=979e25236567012c3b8dd149b86738a0';
-const apiForcast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=979e25236567012c3b8dd149b86738a0';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=979e25236567012c3b8dd149b86738a0';
+const apiForcast = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=979e25236567012c3b8dd149b86738a0';
 const eventURL= 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(apiForcast)
@@ -35,7 +35,6 @@ fetch(apiForcast)
     }
   });
 
-
   fetch(apiURL)
 .then((response)=> response.json())
 .then((jsObject)=>{
@@ -51,7 +50,6 @@ fetch(apiForcast)
     document.getElementById("windchill").textContent=doInputOutput(((jsObject.main.temp-273.15)*(9/5)+32),jsObject.wind.speed);
 });
 
-
 fetch(eventURL)
 .then(function(response){
     return response.json();
@@ -64,7 +62,7 @@ fetch(eventURL)
 
     //let events=towns[1].events;
     for(let i=0; i<towns.length; i++){
-        if(towns[i].name=="Preston"){
+        if(towns[i].name=="Fish Haven"){
         let events=towns[i].events;
         let h3=document.createElement("h3");
         h3.textContent="Upcoming Events";
@@ -77,3 +75,7 @@ div.appendChild(p5);
 document.querySelector("section.upcomingevent").appendChild(div);}}}
 
 });
+
+
+
+
