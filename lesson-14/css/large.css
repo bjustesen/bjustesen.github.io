@@ -1,4 +1,33 @@
 @media screen and (min-width: 800px) {
+  .collapsible {
+    display: none;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .content a div {
+    display: inline;
+    padding: 15px 25px;
+  }
+
+  .content {
+    padding: 15px 0;
+    background-color: #2E4A4D;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .nav-item:hover {
+    background-color: #59A9B1;
+  }
+
+  .herodiv {
+    width: 960px;
+  }
  
 
 }
