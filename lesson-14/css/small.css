@@ -2,6 +2,11 @@
 h2 {
     color: black;
     font-family: 'Acme', serif;
+    letter-spacing: 1px;
+}
+h3{
+    letter-spacing: 2px;
+
 }
 
 p {
@@ -460,4 +465,64 @@ iframe{
 /* thankyou pages */
 .thankyou{
     text-align: center;
+}
+
+
+/* directory pages */
+.rock a{
+    color: #E3F1F2;
+    text-decoration: underline;
+    margin: 10px;
+    padding: 5px;
+}
+.rock a:hover {
+    background-color: white;
+    color: #2E4A4D;
+    border-radius: 5px;
+}
+.anthony,
+.barley,
+.elk,
+.outstanding-directory,
+.stich,
+.teresa,
+.rock,
+.icecream {
+    border: 2px solid #3B777D;
+    text-align: center;
+    line-height: 2em;
+    background-color: #2E4A4D;
+    color: white;
+}
+.directory-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    margin-bottom: 1em;
+}
+.directory-grid h2:nth-child(1){
+    grid-column: 1/5;
+    grid-row: 1/2;
+    text-align: center;
+}
+.anthony h3,
+.barley h3,
+.elk h3,
+.outstanding-directory h3,
+.stich h3,
+.teresa h3,
+.rock h3,
+.icecream h3{
+    margin: 10px;
+}
+.anthony p,
+.barley p,
+.elk p,
+.outstanding-directory p,
+.stich p,
+.teresa p,
+.rock p,
+.icecream p{
+    margin: 10px;
+    
 }
