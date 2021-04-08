@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Preston Idaho weather report">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="media/favicon.ico">
+
+    <script defer src="https://cdn.aerisapi.com/sdk/js/latest/aerisweather.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <img class="logo" src="media/logo-img.png" alt="weather logo">
+        <section class="headlines">
+            <h2>Chamber Of Commerce</h2>
+            <div class="hp">
+                <p> Baker City, Oregon <br>Real time updates for your area</p>
+            </div>
+        </section>
+    </header>
+    <nav>
+        <button type="button" class="collapsible">
+            <img class="menuimg" src="media/menu/menuicon.png" alt="menu icon">
+        </button>
+        <div class="content">
+            <a href="index.html">
+                <div class="nav-item">Home</div>
+            </a>
+            <a href="city.html">
+                <div class="nav-item">Baker City</div>
+            </a>
+            <a href="directory.html">
+                <div class="nav-item">Directory</div>
+            </a>
+            <a href="contact.html">
+                <div class="nav-item">Contact</div>
+            </a>
+            <a href="join.html">
+                <div class="nav-item">Sign up</div>
+            </a>
+        </div>
+
+    </nav>
+    <main>
+        <h2>Thank you for your message</h2>
+        <p>We will email you back as soon as we can. In the mean time check out our <a href="index.html">upcoming events!</a> </p>
+    </main>
+    <footer>
+        <p>&copy; Baker City Chamer of Commerce | Brooke Justesen </p>
+    
+        <div class="contact-info">
+            <p> &#x260E; 999-999-9999</p>
+            <p> &#x2709; bakercitychamberofcommerce@gmail.com</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="media/footer-icons/facebook.png" alt="Facebook Img">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="media/footer-icons/instagram.png" alt="Instagram Img">
+            </a>
+            <a href="https://twitter.com/?lang=en" target="_blank">
+                <img src="media/footer-icons/twitter.png" alt="Twitter Img">
+            </a>
+        </div>
+    </footer>
+    <script src="js/collapsible.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    "Acme", 'Yusei Magic'
+                ]
+            }
+        });
+    </script>
+
+</body>
+
+</html>
