@@ -16,10 +16,10 @@
 </head>
 
 <body>
-    <aside id="pancakes"></aside>
+
     <header>
 
-        <img src="media/logo-img.png" alt="weather logo">
+        <img class="logo" src="media/logo-img.png" alt="weather logo">
         <section class="headlines">
             <h2>Chamber Of Commerce</h2>
             <div class="hp">
@@ -53,12 +53,10 @@
     <main>
         <div class="herodiv">
             <div class="hero-ph">
-                <img src="media/baker-city-imgs/mount-cook-new-zealand-hero-banner.jpg" alt="Fish Haven Banner Photo"
-                    sizes="75vw" 
-                    srcset="
-                    media/baker-city-imgs/bannersmall500.jpg 500w,
-                    media/baker-city-imgs/bannermedium800.jpg 800w,
-                    media/baker-city-imgs/bannerlarge1100.jpg 1100w">
+                <img src="media/home-page/wagon-banner.jpg" alt="Fish Haven Banner Photo" sizes="75vw" srcset="
+                    media/home-page/wagon-banner500.jpg 500w,
+                    media/home-page/wagon-banner800.jpg 800w,
+                    media/home-page/wagon-banner1100.jpg 1100w">
             </div>
             <section class="weathersummary">
                 <h3>Weather Summary</h3>
@@ -70,38 +68,109 @@
                 <p>Wind Speed: <span id="windspeed">5</span>mph</p>
             </section>
         </div>
-        <div class="forcastpreston">
-            <p> 5 Day Forcast</p>
+        <div class="home-grid">
+            <section class="welcome-home">
+                <h1>Welcome</h1>
+                <p>Baker City Oregon is a quaint town with a lot of history. Our desire is to educate
+                    and help raise awarness of local bussiness and events. Feel free to browse the following
+                    bussiness, learn of our upcoming events, and check out the weather. We also invite you to
+                    sign up for one of our Chamber of Commerce on the join page! We look forward to your membership
+                    and hope you are living the dream!
+                </p>
+            </section>
+            <section class="companies-intro">
+                <h2>Local companies</h2>
+                <p>more information on the <a href="directory.html">Directory</a></p>
+            </section>
+
+            <section class="outstanding">
+                <h2>Outstanding Computer Repair</h2>
+                <p>Phonimial computer repair through a mobile service.</p>
+            </section>
+            <section class="elkhorn">
+                <h2>Elkhorn Embrordery</h2>
+                <p>Need a custom print? This is your place.</p>
+            </section>
+            <section class="quilting">
+                <h2>Treasure Every Stitch</h2>
+                <p>Local quilting shop, includes events and tutorials.</p>
+            </section>
+
+            <section class="forecast">
+                <h3 class="five-day-header"> 5 Day Forcast</h3>
+                <div class="table">
+                    <table>
+                        <tr>
+                            <th class="day">
+                                <span id="dayPlusOne"></span>
+                            </th>
+                            <th class="day">
+                                <span id="dayPlusTwo"></span>
+                            </th>
+                            <th class="day">
+                                <span id="dayPlusThree"></span>
+                            </th>
+                            <th class="day">
+                                <span id="dayPlusFour"></span>
+                            </th>
+                            <th class="day">
+                                <span id="dayPlusFive"></span>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <img class="home-right-photo" src="media/home-page/barly-browns-pic.jpg" alt="philips lake">
+            <h2 class="learn-more">Learn more on how to join our wonderful network on our <br> <a href="join.html">Join
+                    Page!</a> </h2>
         </div>
-
-        <div class="table">
-
-            <h2 id="dayPlusOne">
-
+        <section class="up-comingevents">
+            <h2>
+                Upcoming Events
             </h2>
-            <h2 id="dayPlusTwo">
-
-            </h2>
-            <h2 id="dayPlusThree">
-
-            </h2>
-            <h2 id="dayPlusFour">
-
-            </h2>
-            <h2 id="dayPlusFive">
-
-            </h2>
-        </div>
-
-
+            <hr>
+            <p><strong>Thursday April 15th, 2021:</strong> Farmers Market</p>
+            <p><strong>Friday April 23rd, 2021 - Saturday April 24th, 2021: </strong> Spring Cleaning </p>
+            <p><strong>Saturday May 15th, 2021:</strong> Halfway Car Show</p>
+            <p><strong>Thursday May 20th, 2021:</strong> Farmers Market</p>
+        </section>
     </main>
     <footer>
-        <p>&copy; Radical Weather Updates | Brooke Justesen <span id="currentdate"></span></p>
+        <div class="contact-info">
+            <p> &#x260E; 999-999-9999</p>
+            <p> &#x2709; bakercitychamberofcommerce@gmail.com</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="media/footer-icons/facebook.png" alt="Facebook Img">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="media/footer-icons/instagram.png" alt="Instagram Img">
+            </a>
+            <a href="https://twitter.com/?lang=en" target="_blank">
+                <img src="media/footer-icons/twitter.png" alt="Twitter Img">
+            </a>
+        </div>
+
+        <p>&copy; Baker City Chamer of Commerce | Brooke Justesen |</p>
+    <p>Last Modified:<span id="currentdate"></span></p>
 
     </footer>
     <script src="js/baker-city-forcast.js"></script>
+    <script src="js/currentdate.js"></script>
     <script src="js/collapsible.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/forcast-day.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    "Acme", 'Yusei Magic'
+                ]
+            }
+        });
+    </script>
 </body>
 
 </html>

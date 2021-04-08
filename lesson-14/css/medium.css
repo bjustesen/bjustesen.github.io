@@ -1,5 +1,38 @@
 @media screen and (min-width: 500px) {
+  .home-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.outstanding{
+grid-column: 1/2;
+grid-row: 3;
+}
+.elkhorn{
+grid-column: 2/3;
+grid-row: 3;  
+}
+.quilting{
+grid-column: 3/4;
+grid-row: 3;
+}
+.welcome-home{
+  text-align: center;
+  grid-column: 1/4;
+  grid-row: 1;
+}
+.forecast{
+  grid-column: 1/4;
+  grid-row: 4;
  
+}
+.companies-intro{
+  grid-column: 1/3;
+  grid-row: 2; 
+}
+.home-right-photo{
+  grid-column: 1/4;
+  grid-row: 5;
+}
 
 
 
