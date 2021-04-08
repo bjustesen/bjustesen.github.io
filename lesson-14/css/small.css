@@ -314,6 +314,7 @@ h2 a:hover {
 }
 
 .up-comingevents {
+    background-color: #59A9B1;
     border: 2px solid #2E4A4D;
     margin: 20px auto;
     width: fit-content;
@@ -336,7 +337,7 @@ h2 a:hover {
 }
 
 
-/* contact page */
+/* join page */
 .membership-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -355,4 +356,103 @@ h2 a:hover {
     border: 2px solid #3B777D;
     text-align: center;
     line-height: 2em;
+    background-color: #2E4A4D;
+    color: white;
+}
+.non-profit h2,
+.bronze h2,
+.silver h2,
+.gold h2{
+    color: white;
+    margin-bottom:-20px;
+}
+.non-profit p,
+.bronze p,
+.silver p,
+.gold p{
+    margin-top: -10px;
+}
+.joinform{
+    border: 2px solid #3B777D;
+    width: 700px;
+    background-color: #ACD4D8;
+    margin: 20px auto;
+}
+.joinform div{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.joinform div:nth-child(3),.joinform div:nth-child(10){
+    margin: 10px;
+    margin-left: 45px;
+    display: block;
+}
+.joinform input, .joinform textarea{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+   
+}
+.joinform label{
+    margin-top: 10px;
+}
+.joinform textarea{
+    height:90px;
+}
+.joinform select{
+    height: 2em;
+    width:fit-content;
+    margin-top: 10px;
+
+}
+.joinform button{
+    background-color: #03564C;
+    border:none;
+    color: #D5E9EB;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.joinform button:hover{
+    background-color: #D5E9EB;
+    color: #03564C;
+    border:none;
+}
+
+
+
+
+
+/* contact page */
+.contact-grid{
+    display: grid;
+    grid-template-columns: 400px 1fr 1fr;
+    grid-gap: 1em;
+}
+.list-board{
+    grid-column: 2/4;
+    grid-row: 1 ;
+    text-align: center;
+}
+iframe{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    margin-top: 30px;
+}
+.first-board{
+    grid-column: 2/3;
+    grid-row: 2;
+    text-align: center;
+}
+.second-board{
+    grid-column: 3/4;
+    grid-row: 2;
+    text-align: center;
+}
+.thrid-board{
+    grid-column: 2/4;
+    grid-row: 3;
+    text-align: center;
+    margin-top: -10px;
 }

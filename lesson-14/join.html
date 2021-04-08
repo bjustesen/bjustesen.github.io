@@ -104,7 +104,7 @@
                 </p>
             </section>
         </div>
-        <form action="https://bjustesen.github.io/lesson-11/thankyou.html">
+        <form class="joinform" action="https://bjustesen.github.io/lesson-14/thankyou.html">
             <div>
                 <label for="name">First Name*:
                     <input type="text" id="name" pattern="[A-Za-z]{2,}" required>
@@ -128,7 +128,7 @@
                 </select>
             </div>
             <div>
-                <label for="mail">E-mail:
+                <label for="mail">E-mail:<br>
                     <input type="email" id="mail" name="user_mail" placeholder="example@123.com">
                 </label>
             </div>
@@ -154,7 +154,7 @@
                 </label>
             </div>
             <div>
-                <label for="msg">Business Description:
+                <label for="msg">Business Description:<br>
                     <textarea id="msg" name="user_message" placeholder="Description"></textarea>
                 </label>
             </div>
@@ -168,25 +168,43 @@
                     <option value="miss">Miss</option>                    
                 </select>
             </div>
+            <div class="button">
+                <button type="submit">Send your message </button>
+            </div>
         </form>
 
 
     </main>
     <footer>
+        <p>&copy; Baker City Chamer of Commerce | Brooke Justesen </p>
+    
         <div class="contact-info">
             <p> &#x260E; 999-999-9999</p>
             <p> &#x2709; bakercitychamberofcommerce@gmail.com</p>
         </div>
         <div class="social-icons">
-            <img src="media/footer-icons/facebook.png" alt="Facebook Img">
-            <img src="media/footer-icons/instagram.png" alt="Instagram Img">
-            <img src="media/footer-icons/twitter.png" alt="Twitter Img">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="media/footer-icons/facebook.png" alt="Facebook Img">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="media/footer-icons/instagram.png" alt="Instagram Img">
+            </a>
+            <a href="https://twitter.com/?lang=en" target="_blank">
+                <img src="media/footer-icons/twitter.png" alt="Twitter Img">
+            </a>
         </div>
-
-        <p>&copy; Baker City Chamer of Commerce | Brooke Justesen <span id="currentdate"></span></p>
-
     </footer>
     <script src="js/collapsible.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    "Acme", 'Yusei Magic'
+                ]
+            }
+        });
+    </script>
 
 </body>
 
