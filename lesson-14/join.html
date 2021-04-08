@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    
+
     <header>
 
         <img class="logo" src="media/logo-img.png" alt="weather logo">
@@ -51,13 +51,131 @@
 
     </nav>
     <main>
+        <div class="membership-grid">
+            <h2 class="membership">Membership teirs</h2>
+            <section class="non-profit">
+                <h2>Non-Profit $100</h2>
+                <h3>Benefits</h3>
+                <p>
+                    Weekly Email
+                    <br>
+                    Directory listings
+                </p>
+            </section>
+            <section class="bronze">
+                <h2>Bronze $200</h2>
+                <h3>Benefits</h3>
+                <p>
+                    Weekly Email
+                    <br>
+                    Directory listings
+                    <br>
+                    Business trainings
+                </p>
+            </section>
+            <section class="silver">
+                <h2>Silver $400</h2>
+                <h3>Benefits</h3>
+                <p>
+                    Weekly Email
+                    <br>
+                    Directory listings
+                    <br>
+                    Business trainings
+                    <br>
+                    Social Media posts
+                </p>
+            </section>
+            <section class="gold">
+                <h2>Gold $1,000</h2>
+                <h3>Benefits</h3>
+                <p>
+                    Weekly Email
+                    <br>
+                    Directory listings
+                    <br>
+                    Business trainings
+                    <br>
+                    Social Media posts
+                    <br>
+                    luncheon tickets
+                    <br>
+                    Sponsorship (up to $1000)
+                </p>
+            </section>
+        </div>
+        <form action="https://bjustesen.github.io/lesson-11/thankyou.html">
+            <div>
+                <label for="name">First Name*:
+                    <input type="text" id="name" pattern="[A-Za-z]{2,}" required>
+                </label>
+            </div>
+            <div>
+                <label for="last-name">Last Name*:
+                    <input type="text" id="last-name" pattern="[A-Za-z]{2,}" required>
+                </label>
+            </div>
+            <div>
+                <label for="tittle-select"></label>
+
+                <select id="tittle-select">
+                    <option value="">--tittle--</option>
+                    <option value="mr">Mr</option>
+                    <option value="mrs">Mrs</option>
+                    <option value="miss">Miss</option>
+                    <option value="ms">Ms</option>
+                    
+                </select>
+            </div>
+            <div>
+                <label for="mail">E-mail:
+                    <input type="email" id="mail" name="user_mail" placeholder="example@123.com">
+                </label>
+            </div>
+
+            <div>
+                <label for="cell">Cell Number*:
+                    <input type="tel" id="cell" name="user_cell" required>
+                </label>
+            </div>
+            <div>
+                <label for="bus-name">Business Name*:
+                    <input type="text" id="bus-name" required>
+                </label>
+            </div>
+            <div>
+                <label for="address">Business Adress:
+                    <input type="text" id="address">
+                </label>
+            </div>
+            <div>
+                <label for="website">Business URL:
+                    <input type="text" id="website">
+                </label>
+            </div>
+            <div>
+                <label for="msg">Business Description:
+                    <textarea id="msg" name="user_message" placeholder="Description"></textarea>
+                </label>
+            </div>
+            <div>
+                <label for="membership-select"></label>
+
+                <select id="membership-select" name="membership-select">
+                    <option value="value" selected="selected" disabled>--membership level--</option>
+                    <option value="mr">$100</option>
+                    <option value="mrs">$400</option>
+                    <option value="miss">Miss</option>                    
+                </select>
+            </div>
+        </form>
 
 
     </main>
     <footer>
         <div class="contact-info">
             <p> &#x260E; 999-999-9999</p>
-            <p> &#x2709; bakercitychamberofcommerce@gmail.com</p>       
+            <p> &#x2709; bakercitychamberofcommerce@gmail.com</p>
         </div>
         <div class="social-icons">
             <img src="media/footer-icons/facebook.png" alt="Facebook Img">
