@@ -105,7 +105,7 @@ header img {
 
 .active div {
     background-color: #59A9B1;
-    color: #2E4A4D;
+    color: black;
     font-weight: bold;
 
 }
@@ -193,7 +193,7 @@ footer{
     color: white;
     top: 30px;
     left: 50px;
-    background: radial-gradient(#069D8C, #03564C);
+    background: radial-gradient(#3B777D, #2E4A4D);
     padding: 0 1em;
     box-shadow: 0 0 30px white;
     border-radius: 5%;
