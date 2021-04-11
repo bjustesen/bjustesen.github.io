@@ -84,4 +84,25 @@ iframe{
     margin: 0px;
 }
 
+/* city */
+.city-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+}
+.city-img-one{
+  margin-bottom: 0;
+}
+.city-img-two{
+margin-top: 0;
+margin-bottom: 0;
+
+}
+.city-img-three{
+  width: 96%;
+  /* height: 182px; */
+  grid-column: 2/3;
+  grid-row: 4/3;
+}
+
 }

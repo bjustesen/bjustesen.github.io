@@ -536,3 +536,36 @@ iframe{
 .icecream {
     margin: 10px;
 }
+
+/* city */
+.historical-info h2{
+    text-align: center;
+}
+.historical-info p{
+    padding: 10px;
+}
+.historical-info{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.city-img-one{
+    /* height: 100%; */
+    width: 96%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.city-img-two{
+    width: 96%;
+    /* height: 100%; */
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}

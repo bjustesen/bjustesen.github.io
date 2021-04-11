@@ -54,4 +54,12 @@
   grid-row: 4;
 }
 
+/* city  */
+.city-img-three{
+  width: 100%;
+  grid-column: 1/3;
+  grid-row: 4/5;
+  margin-bottom: 10px;
+}
+
 }
